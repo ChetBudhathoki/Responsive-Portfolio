@@ -1,0 +1,61 @@
+
+.maincontent {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    background-color: teal;
+    padding: 20px;
+    float: left;
+}
+
+ul {
+    display: inline;
+    /* overflow: hidden; */
+    list-style-type: none; /* This will remove the bullets*/
+    /* margin: 5px; */
+    padding: 10px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.aboutme {
+    clear: both;
+    color: teal;
+    background-color: white;
+    padding: 20px;
+}
+
+.imageparagraph {
+    float: left;
+    margin-right: 5px;
+}
+
+p {
+    line-height: 150%;
+    color: #777777;
+}
+
+.footer h2{
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0; /* This will allow footer text on the bottom */
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: gray;
+}
